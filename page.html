@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio responsive complete</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Celine Huber</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index2.html#home" class="nav__link ">Home</a></li>
+                    <li class="nav__item"><a href="index2.html#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="index2.html#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="index2.html#portfolio" class="nav__link active">Portfolio</a></li>
+                    <li class="nav__item"><a href="index2.html#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-- CONTENT-->
+
+    <section class="about section">
+        <h2 class="section-title">Quartier G - Alte Gießerei</h2>
+
+        <div class="about__container bd-grid">
+            <img src="Quartier_images/title.png" alt="">
+            <div>
+                <h2 class="about__subtitle">What is Quartier G - alte Gießerei?</h2>
+                <span class="about__profession">design project second semester UXD</span>
+                <p class="about__text">The Quartier G - alte Gießerei is a design project which was undertaken in the second
+                    semester of my User Experience Design study program.
+                    <br> <br> It is an area in Ingolstadt that encompasses seven institutes and companies. Our task was
+                    to aesthetically enhance this area through design elements. This involved creating a logo, icons,
+                    site map, wayfinding system, data visualization, and interface design.
+                </p>
+            </div>
+
+            <h2 class="section-title">Logo</h2>
+            <img src="Quartier_images/Logo.png" alt="">
+
+            <p></p>
+            <h2 class="section-title">Icons</h2>
+            <img src="Quartier_images/icons.png" alt="">
+            <div>
+                <p class="about__text"> When creating icons, I tried to make them as similiar as possible to my existing
+                    logo.
+                    Icons play a crucial role in navigation and should speak a consistent visual language. They
+                    contribute to enhancing the user experience and convey essential information at a glance.
+
+                </p>
+                <img src="Quartier_images/Icon-Set.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio section">
+        <div class="about__container bd-grid">
+            <h2 class="section-title">Location Plan</h2>
+            <img src="Quartier_images/lageplan.png" alt="">
+        </div>
+        <p class="about__text" id="lageplan__text">A site plan is intended to provide a comprehensive overview of the
+            Quartier G. To achieve this, I highlighted the entire area with a distinctive frame. This clear demarcation
+            should lead to easy orientation and provide viewers with an immediate understanding of the entire
+            location of Quartier G.</p>
+    </section>
+
+
+    <!-- CAROUSEL-->
+    <section class="about section">
+        <h2 class="section-title">Wayfinding System</h2>
+
+        <p class="about__text" id="lageplan__text"> Another challenge was to develop a comprehensive wayfinding system
+            that enhances navigation in outdoor areas, buildings, and across multiple floors.<br> My goal was to present
+            not only functional but also visually appealing solutions that enable a smooth and pleasant navigation
+            experience in various environments. Click on the arrows to see my different solutions!</p> <br>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="Quartier_images/großes schild-03.png" style="width:100%">
+                <div class="text">wayfinding illustration</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="Quartier_images/schild-07.png"  style="width:100%">
+                <div class="text">wayfinding outdoor</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="Quartier_images/brigk-06.png"  style="width:100%">
+                <div class="text">wayfinding buildings</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="Quartier_images/audi-05.png" style="width:100%">
+                <div class="text">wayfinding floors</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+
+    <section class="about section">
+        <h2 class="section-title"> Data Visualization</h2>
+        <div class="about__container bd-grid">
+            <img src="Quartier_images/plakat.png" alt="">
+            <img src="Quartier_images/austellung.jpeg" width="428.01" height="590" alt="">
+        </div>
+        <p class="about__text" id="lageplan__text">Data visualization was also a focal point in our project. For this
+            aspect, I chose to visualize the history of the Quartier G. Using illustrations and a timeline, to showcase 
+            the backstory to the different insitutions. <br> <br>Moreover, my poster is currently on display at an exhibition in the
+            Ingolstadt City Museum. </p>
+
+    </section>
+
+
+
+    <section class="about section">
+        <h2 class="section-title">Interface Designs</h2>
+        <div class="about__container bd-grid">
+            <video height="500" controls autoplay>
+                <source src="animation.mp4" type="video/mp4">
+            </video>
+            <div>
+                <h2>Mobile App Quartier G</h2>
+                <p> <br></p>
+                <p class="about__text">For the first interface, I chose to design an app to provide users with
+                    information about individual companies and institutes in the area, along with a navigation system to
+                    different sections. Considering the diverse target audience, the emphasis here was on an intuitive
+                    and user-friendly design.</p>
+            </div>
+            <div>
+                <h2>Website Quartier G</h2>
+                <p> <br></p>
+                <p class="about__text">A website was chosen as another interface to provide information for the area.
+                    Here, users can access information about individual institutes as well.
+                    <br> A gallery featuring images from the area and a link to the app are typical elements found on
+                    the website.
+                </p>
+
+
+
+            </div>
+            <img src="Quartier_images/website.png" alt="">
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">Other Projects:</h2>
+
+        <div class="about__container bd-grid">
+            <div class="portfolio__img">
+                <img src="RETRACK_images/logo2.png" alt="">
+
+                <div class="portfolio__link">
+                    <a href="page2.html#portfolio" class="portfolio__link-name">View details</a>
+                </div>
+            </div>
+            <div class="portfolio__img">
+                <img src="ECOQUEST_images/logo2.jpg" alt="">
+
+                <div class="portfolio__link">
+                    <a href="page3.html#portfolio" class="portfolio__link-name">View details</a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">CELINE HUBER</h2>
+                <p class="footer__text">Portfolio Website</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">NAVIGATION</h2>
+                <ul>
+                    <li><a href="index2.html#home" class="footer__link">Home</a></li>
+                    <li><a href="index2.html#about" class="footer__link">About</a></li>
+                    <li><a href="index2.html#skills" class="footer__link">Skills</a></li>
+                    <li><a href="index2.html#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="index2.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">CONTACT</h2>
+                <p class="footer__social"><i class='bx bxs-contact'></i> celine.huber@mail.de</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+</body>
+
+
+</body>
+
+</html>
