@@ -255,6 +255,10 @@ img{
     margin-bottom: var(--mb-4);
 }
 
+.about__text2{
+    margin-bottom: var(--mb-4);
+}
+
 
 .about__profession{
     display: block;
@@ -326,7 +330,8 @@ img{
     bottom: 0;
 }
 .portfolio__link-name{
-    color: var(--dark-color);
+    color: var(--white-color);
+    font-size: 2em;
 }
 
 /* ===== CONTACT =====*/
@@ -647,6 +652,7 @@ img{
 }
 
 .collapsible {
+    font-family: 'Montserrat', sans-serif;
     background-color: #FAFAFF;
     color: #697477;
     cursor: pointer;
